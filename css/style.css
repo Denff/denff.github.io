@@ -6,6 +6,7 @@ body {
 * {box-sizing: border-box;}
 
 body {
+  font-family: arial;
   background-color: #f8f8f8;
   background-image: url('/img/checked.svg');
   background-repeat: repeat;
@@ -16,13 +17,27 @@ h1 {
 }
 .container {
   margin: 20px auto;
+  margin: 20px;
+  width: 970px;
+  padding: 0 20px;
+  background-color: #fdfdfd;
+  box-shadow: 0 6px 23px rgba(0, 0, 0, 0.2);
+}
+.sites__list {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+}
+.sites__list a {
+  font-size: 15px;
+  font-weight: 400;
+  color: #101010;
+  text-decoration: none;
+}
 
-
-
-    margin: 20px;
-    width: 970px;
-    padding: 0 20px;
-    background-color: #fdfdfd;
-    box-shadow: 0 6px 23px rgba(0, 0, 0, 0.2);
-
+@media screen only (max-width: 768px) {
+  .container {
+    width: 100%;
+    margin: 10px;
+  }
 }
