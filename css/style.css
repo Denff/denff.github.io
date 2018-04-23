@@ -16,8 +16,6 @@ h1 {
   text-align: center;
 }
 .container {
-
-
   padding: 0 20px;
   background-color: #fdfdfd;
   box-shadow: 0 6px 23px rgba(0, 0, 0, 0.2);
@@ -33,13 +31,13 @@ h1 {
   color: #101010;
   text-decoration: none;
 }
-@media screen only  and (min-width: 769px) {
+@media  only screen and (min-width: 769px) {
   .container {
     width: 970px;
-      margin: 20px auto;
+    margin: 20px auto;
   }
 }
-@media screen only  and (max-width: 768px) {
+@media  only screen and (max-width: 768px) {
   .container {
     width: 100%;
     margin: 10px;
