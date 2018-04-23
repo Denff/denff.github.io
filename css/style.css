@@ -31,13 +31,13 @@ h1 {
   color: #101010;
   text-decoration: none;
 }
-@media  only screen and (min-width: 769px) {
+@media screen and (min-width: 769px) {
   .container {
     width: 970px;
     margin: 20px auto;
   }
 }
-@media  only screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .container {
     width: 100%;
     margin: 10px;
