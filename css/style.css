@@ -12,9 +12,17 @@ body {
   background-size: 15px;
 }
 h1 {
-
+  text-align: center;
 }
 .container {
   margin: 20px auto;
-  text-align: center;
+
+
+
+    margin: 20px;
+    width: 970px;
+    padding: 0 20px;
+    background-color: #fdfdfd;
+    box-shadow: 0 6px 23px rgba(0, 0, 0, 0.2);
+
 }
