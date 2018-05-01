@@ -49,10 +49,14 @@ h1 {
   text-decoration: none;
 }
 .sites__changes,
-.contacts {
+.contacts,
+.sites__done,
+.helpers {
   margin-bottom: 15px;
 }
-
+.contacts {
+  text-align: right;
+}
 
 @media screen and (min-width: 992px) {
   .container {
@@ -71,11 +75,6 @@ h1 {
     width: 100%;
     margin: 10px;
   }
-}
-
-.sites__done,
-.helpers {
-  margin-bottom: 15px;
 }
 
 .ready__job {
