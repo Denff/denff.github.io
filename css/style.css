@@ -48,7 +48,8 @@ h1 {
   color: #101010;
   text-decoration: none;
 }
-.sites__changes {
+.sites__changes,
+.contacts {
   margin-bottom: 15px;
 }
 
