@@ -60,13 +60,13 @@ h1 {
   width: 200px;
 
   text-align: center;
-  padding: 8px 10px 7px;
-  margin-left: 100px;
+  padding: 10px 10px 9px;
+  margin: 6px 10px;
   position: relative;
   /*// border-top: 1px solid #42a4ff;*/
   /*// border-bottom: 1px solid #42a4ff;*/
   transition: all 0.7s; 
-  width: 250px;
+  /*width: 250px;*/
   /*// z-index: 1;*/
 
 
@@ -80,7 +80,7 @@ h1 {
   top: 0;
   left: 0;
   /*// border: 1px solid #42a4ff;*/
-  background-color: #42a4ff;
+  background-color: #006561;
   border-top-left-radius: 22px;
   border-bottom-left-radius: 22px;
   transition: all 0.7s;
@@ -94,18 +94,19 @@ h1 {
   top: 0;
   right: 0;
   /*// border: 1px solid #42a4ff;*/
-  background-color: #42a4ff;
+  background-color: #006561;
   border-top-right-radius: 22px;
   border-bottom-right-radius: 22px;
   transition: all 0.7s;
 }
 .ready__job span {
   position: relative;
+  font-weight:600;
   z-index: 3;
   color: #ffffff;
 }
 .ready__job:hover {
-  background-color: rgba(66, 164, 255, 0.2);
+  background-color: rgba(0, 101, 97, 0.3);
   /*// border-top: 1px solid #235787;*/
   /*// border-bottom: 1px solid #235787;*/
 
