@@ -56,6 +56,11 @@ h1 {
 
 
 .ready__job {
+  display: inline-block;
+  width: 200px;
+
+  text-align: center;
+  padding: 8px 10px 7px;
   margin-left: 100px;
   position: relative;
   /*// border-top: 1px solid #42a4ff;*/
