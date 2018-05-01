@@ -35,7 +35,9 @@ h1 {
 .sites__list_2 a {
   margin: 10px;
   width: 150px;
+  color: #101010;
   text-align: center;
+  text-decoration: none;
   padding: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
@@ -45,7 +47,9 @@ h1 {
   color: #101010;
   text-decoration: none;
 }
-
+.sites__changes {
+  margin-bottom: 15px;
+}
 
 
 @media screen and (min-width: 992px) {
