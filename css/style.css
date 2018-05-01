@@ -55,6 +55,10 @@ h1 {
   }
 }
 
+.sites__done,
+.helpers {
+  margin-bottom: 15px;
+}
 
 .ready__job {
   display: inline-block;
@@ -62,7 +66,7 @@ h1 {
 
   text-align: center;
   padding: 10px 10px 9px;
-  margin: 6px 10px;
+  margin: 6px 40px 6px 10px;
   position: relative;
   /*// border-top: 1px solid #42a4ff;*/
   /*// border-bottom: 1px solid #42a4ff;*/
@@ -97,7 +101,7 @@ h1 {
   /*// border: 1px solid #42a4ff;*/
   background-color: #1142aa;
   border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
+  border-bottom-right-radius: 2px;
   transition: all 0.7s;
 }
 .ready__job span {
@@ -113,16 +117,16 @@ h1 {
 
 }
 .ready__job:hover:before {
-  left: -20px;
-  width: 10%;
+  left: -15px;
+  width: 12%;
   /*// border: 1px solid #235787;*/
   /*background-color: #235787;*/
   /*background-color: #D3DDE7;*/
   background-color: #06276F;
 }
 .ready__job:hover:after {
-  right: -20px;
-  width: 10%;
+  right: -15px;
+  width: 12%;
   /*// border: 1px solid #235787;*/
   /*background-color: #235787;*/
   /*background-color: #D3DDE7;*/
