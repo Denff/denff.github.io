@@ -105,7 +105,7 @@ h1 {
   background-color: #1142aa;
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
-  /*transition: all 0.7s;*/
+  transition: all 0.7s;
 }
 .ready__job:after {
   z-index: 2;
@@ -119,13 +119,14 @@ h1 {
   background-color: #1142aa;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  /*transition: all 0.7s;*/
+  transition: all 0.7s;
 }
 .ready__job span {
   position: relative;
   font-weight:600;
   z-index: 3;
   color: #ffffff;
+  transition: all 0.7s;
 }
 .ready__job:hover {
   background-color: rgba(17, 66, 170, 0.2);
