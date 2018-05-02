@@ -7,13 +7,17 @@ body {
 
 body {
   font-family: arial;
-  background-color: #ffffff;
   /* background-image: url('/img/checked.svg'); */
   /* background-repeat: repeat; */
   background-size: 15px;
   width: 100%;
   padding: 17px;
   min-width: 320px;
+  background: rgb(210,210,210); /* Old Browsers */
+  background: -webkit-linear-gradient(bottom right,rgb(210,210,210),rgb(230,230,230)); /*Safari 5.1-6*/
+  background: -o-linear-gradient(bottom right,rgb(210,210,210),rgb(230,230,230)); /*Opera 11.1-12*/
+  background: -moz-linear-gradient(bottom right,rgb(210,210,210),rgb(230,230,230)); /*Fx 3.6-15*/
+  background: linear-gradient(bottom right, rgb(210,210,210), rgb(230,230,230)); /*Standard*/
 }
 h1 {
   text-align: center;
@@ -37,7 +41,6 @@ h1 {
 
 }
 .sites__list_2 div {
-  background-color: #ffffff;
   display: block;
   margin: 10px;
   width: 150px;
@@ -47,7 +50,12 @@ h1 {
   padding: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   border-radius: 2px;
-}
+  background: rgb(225,230,230); /* Old Browsers */
+  background: -webkit-linear-gradient(bottom right,rgb(225,230,230),rgb(245,245,245)); /*Safari 5.1-6*/
+  background: -o-linear-gradient(bottom right,rgb(225,230,230),rgb(245,245,245)); /*Opera 11.1-12*/
+  background: -moz-linear-gradient(bottom right,rgb(225,230,230),rgb(245,245,245)); /*Fx 3.6-15*/
+  background: linear-gradient(bottom right, rgb(225,230,230), rgb(245,245,245)); /*Standard*/
+  }
 .sites__list a {
   font-size: 15px;
   font-weight: 400;
