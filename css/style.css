@@ -2,14 +2,14 @@
 * {box-sizing: border-box;}
 body {
   margin: 0;
-  
+
 }
 
 body {
   font-family: arial;
   background-color: #f8f8f8;
-  background-image: url('/img/checked.svg');
-  background-repeat: repeat;
+  /* background-image: url('/img/checked.svg'); */
+  /* background-repeat: repeat; */
   background-size: 15px;
   width: 100%;
   padding: 17px;
@@ -33,7 +33,7 @@ h1 {
 .sites__list_2 {
   display: flex;
   flex-flow: row wrap;
-  
+
 }
 .sites__list_2 div {
   display: block;
@@ -107,7 +107,7 @@ h1 {
   position: relative;
   /*// border-top: 1px solid #42a4ff;*/
   /*// border-bottom: 1px solid #42a4ff;*/
-  transition: all 0.7s; 
+  transition: all 0.7s;
   /*width: 250px;*/
   /*// z-index: 1;*/
 
