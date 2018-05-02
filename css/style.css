@@ -75,12 +75,17 @@ h1 {
   .container {
     min-width: 300px;
     width: 100%;
-    margin: 10px;
+    margin: 5px;
+    padding: 5px;
   }
   .sites__list_2 div {
     width: 140px;
     margin: 5px;
     font-size: 14px;
+  }
+  .description {
+    display: block;
+    margin: 5px;
   }
 
 }
