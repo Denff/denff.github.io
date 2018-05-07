@@ -41,6 +41,7 @@ h1 {
 
 }
 .sites__list_2 a {
+  position: relative;
   display: block;
   margin: 10px;
   width: 150px;
@@ -56,6 +57,30 @@ h1 {
   background: -moz-linear-gradient(bottom right,rgb(225,230,230),rgb(245,245,245)); /*Fx 3.6-15*/
   background: linear-gradient(bottom right, rgb(225,230,230), rgb(245,245,245)); /*Standard*/
   }
+
+@media screen and (min-width: 992px) {
+  .sites__list_2 a:before {
+    opacity: 0;
+    position: absolute;
+    content: '';
+    bottom: 3px;
+    right: 5px;
+    width: 50px;
+    height:auto;
+    border: 2px solid #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    background-image: url(../img/astslon.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 0.4s ease-in-out;
+  }
+
+  .sites__list_2 a:hover:before {
+    opacity: 1;
+  }
+}
+
 .sites__list a {
   font-size: 15px;
   font-weight: 400;
