@@ -32,11 +32,15 @@ h1 {
 }
 .photo {
   position: absolute;
-  top: 25px;
+  top: 40px;
   right: 40px;
-  width: 72px;
-  height: 72px;
-  border: 6px ridge grey;
+  width: 110px;
+  height: 110px;
+  border-top: 6px ridge grey;
+  border-radius: 55px;
+  border-right: 6px groove grey;
+  border-bottom: 6px groove grey;
+  border-left: 6px ridge grey;
 }
 .sites__list {
   display: flex;
