@@ -63,22 +63,53 @@ h1 {
     opacity: 0;
     position: absolute;
     content: '';
-    bottom: 3px;
-    right: 5px;
-    width: 50px;
-    height:auto;
+    bottom: 20px;
+    right: -45px;
+    width: 90px;
+    height: 350px;
     border: 2px solid #ffffff;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    background-image: url(../img/screenshots/astslon.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
     transition: all 0.4s ease-in-out;
+    z-index: 177;
+    background-image: url(../img/screenshots/astslon.jpg);
   }
-
   .sites__list_2 a:hover:before {
     opacity: 1;
   }
+  .sites__list_2 a:nth-child(1):before {
+    background-image: url(../img/screenshots/vektor.jpg);
+  }
+  .sites__list_2 a:nth-child(2):before {
+    background-image: url(../img/screenshots/fongrad.png);
+  }
+  .sites__list_2 a:nth-child(3):before {
+    background-image: url(../img/screenshots/showcompany.png);
+  }
+  .sites__list_2 a:nth-child(4):before {
+    background-image: url(../img/screenshots/astslon.jpg);
+  }
+  .sites__list_2 a:nth-child(5):before {
+    background-image: url(../img/screenshots/asv.jpg);
+  }
+  .sites__list_2 a:nth-child(6):before {
+    background-image: url(../img/screenshots/delsot.png);
+  }
+  .sites__list_2 a:nth-child(7):before {
+    background-image: url(../img/screenshots/gmhm.jpg);
+  }
+  .sites__list_2 a:nth-child(8):before {
+    background-image: url(../img/screenshots/nomas.jpg);
+  }
+  .sites__list_2 a:nth-child(9):before {
+    background-image: url(../img/screenshots/astslon.jpg);
+  }
+
+  .sites__list_2 a:nth-child(10):before {
+    background-image: url(../img/screenshots/astslon.jpg);
+  }  
 }
 
 .sites__list a {
