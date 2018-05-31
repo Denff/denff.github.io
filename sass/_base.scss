@@ -1,0 +1,25 @@
+
+* {box-sizing: border-box;}
+body {
+  margin: 0;
+
+}
+
+body {
+  font-family: arial;
+  /* background-image: url('/img/checked.svg'); */
+  /* background-repeat: repeat; */
+  background-size: 15px;
+  width: 100%;
+  padding: 17px;
+  min-width: 320px;
+  background: rgb(210,210,210); /* Old Browsers */
+  background: -webkit-linear-gradient(bottom right,rgb(210,210,210),rgb(230,230,230)); /*Safari 5.1-6*/
+  background: -o-linear-gradient(bottom right,rgb(210,210,210),rgb(230,230,230)); /*Opera 11.1-12*/
+  background: -moz-linear-gradient(bottom right,rgb(210,210,210),rgb(230,230,230)); /*Fx 3.6-15*/
+  background: linear-gradient(bottom right, rgb(210,210,210), rgb(230,230,230)); /*Standard*/
+}
+h1 {
+  text-align: center;
+  margin-top: 14px;
+}
