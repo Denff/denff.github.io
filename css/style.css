@@ -71,6 +71,7 @@ h1 {
   background: linear-gradient(bottom right, rgb(225,230,230), rgb(245,245,245)); /*Standard*/
   }
 .sites__list_2 a:before {
+  content: '';
   position: absolute;
   top: 0;
   left: 0;
