@@ -183,11 +183,15 @@ h1 {
   justify-content: flex-end;
 
 }
-
+.hello {
+  padding: 0 5px;
+}
 .ya-share2 {
     margin-right: 20px;
 }
-
+.ya-share2__list_direction_horizontal > .ya-share2__item {
+  margin: 0 5px 5px 0;
+}
 
 
 @media screen and (min-width: 992px) {
