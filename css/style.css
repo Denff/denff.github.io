@@ -70,6 +70,27 @@ h1 {
   background: -moz-linear-gradient(bottom right,rgb(225,230,230),rgb(245,245,245)); /*Fx 3.6-15*/
   background: linear-gradient(bottom right, rgb(225,230,230), rgb(245,245,245)); /*Standard*/
   }
+.sites__list_2 a:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 0px;
+  opacity: 0;
+  background-color: rgba(120,219,226,0.7);
+  transition: all 0.5s;
+  z-index: 1;
+}
+.sites__list_2 a:hover:before {
+  width: 100%;
+  opacity: 1;
+}
+
+
+
+
+
 
 @media screen and (min-width: 992px) {
 /*  .sites__list_2 a:before {
@@ -104,43 +125,43 @@ h1 {
   }
   .sites__list_2 a:nth-child(4):before {
 
-  }  
+  }
   .sites__list_2 a:nth-child(5):before {
-    
+
   }
   .sites__list_2 a:nth-child(6):before {
 
   }
   .sites__list_2 a:nth-child(7):before {
-    
+
   }
   .sites__list_2 a:nth-child(8):before {
-    
+
   }
   .sites__list_2 a:nth-child(9):before {
-    
+
   }
 
   .sites__list_2 a:nth-child(10):before {
-    
-  }  
+
+  }
   .sites__list_2 a:nth-child(11):before {
-    
-  } 
+
+  }
   .sites__list_2 a:nth-child(12):before {
-    
-  } 
+
+  }
   .sites__list_2 a:nth-child(13):before {
-    
-  } 
+
+  }
   .sites__list_2 a:nth-child(14):before {
-    
-  } 
+
+  }
   .sites__list_2 a:nth-child(15):before {
-    
-  } 
+
+  }
   .sites__list_2 a:nth-child(16):before {
-    
+
   } */
 }
 
