@@ -179,8 +179,16 @@ h1 {
   margin-bottom: 15px;
 }
 .contacts {
-  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+
 }
+
+.ya-share2 {
+    margin-right: 20px;
+}
+
+
 
 @media screen and (min-width: 992px) {
   .container {
