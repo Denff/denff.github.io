@@ -27,6 +27,42 @@ h1 {
   text-align: center;
   margin-top: 14px; }
 
+.title {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  bottom: 50%;
+  line-height: 0px;
+  filter: contrast(10); }
+
+h1 {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  font-size: 200px;
+  margin: 0;
+  color: black;
+  text-shadow: 4px 4px 120px white, -4px -4px 120px white, -4px 4px 120px white, 4px -4px 120px white; }
+
+@keyframes anim {
+  0% {
+    opacity: 0;
+    filter: blur(28px); }
+  10% {
+    opacity: 0; }
+  90% {
+    opacity: 1; }
+  100% {
+    opacity: 1;
+    filter: blur(6px); } }
+.russian {
+  animation: anim 5s infinite alternate-reverse; }
+
+.english {
+  animation: anim 5s infinite alternate; }
+
 .container {
   position: relative;
   padding: 5px 20px;
