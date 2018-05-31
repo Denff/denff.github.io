@@ -178,6 +178,14 @@ h1 {
 .helpers {
   margin-bottom: 15px;
 }
+.photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
 .contacts {
   display: flex;
   justify-content: flex-end;
