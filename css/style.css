@@ -79,7 +79,7 @@ h1 {
   bottom: 0;
   width: 0px;
   opacity: 0;
-  background-color: rgba(120,219,226,0.7);
+  background-color: rgba(120,219,226,0.4);
   transition: all 0.5s;
   z-index: 1;
 }
