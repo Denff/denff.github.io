@@ -52,7 +52,7 @@ h1 {
   position: absolute;
   font-size: 40px;
   margin: 0;
-  font-family: arial;
+  font-family: 'Colus', arial;
   color: black;
   text-shadow: 4px 4px 30px white, -4px -4px 30px white, -4px 4px 30px white, 4px -4px 30px white; }
 
@@ -165,7 +165,7 @@ h1 {
   display: flex;
   justify-content: flex-end; }
 
-.contacts > span:nth-child(1) {
+.frontend {
   font-family: 'Colus', arial; }
 
 .hello {
