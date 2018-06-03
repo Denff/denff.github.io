@@ -160,7 +160,7 @@ h1 {
   display: flex;
   justify-content: flex-end; }
 
-.contacts > span:first-child {
+.contacts > span:nth-child(1) {
   font-family: 'Colus', arial; }
 
 .hello {
