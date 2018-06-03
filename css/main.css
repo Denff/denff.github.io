@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Colus';
+  src: url("../fonts/colus-400-normal.woff2") format("woff2"), url("../fonts/colus-400-normal.woff") format("woff"), url("../fonts/colus-400-normal.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal; }
 * {
   box-sizing: border-box; }
 
@@ -275,11 +280,5 @@ h1 {
 .ready__job:hover span {
   /*// z-index: 3;*/
   color: rgba(0, 0, 0, 0.8); }
-
-@font-face {
-  font-family: 'Colus';
-  src: url("../fonts/colus-400-normal.woff2") format("woff2"), url("../fonts/colus-400-normal.woff") format("woff"), url("../fonts/colus-400-normal.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal; }
 
 /*# sourceMappingURL=main.css.map */
