@@ -1,3 +1,5 @@
+
+
 .title {
   margin: 0;
   padding: 0;
@@ -8,6 +10,10 @@
   line-height: 0px;
   filter: contrast(10);
 }
+
+
+
+
 h1 {
   width: 100%;
   text-align: center;
@@ -34,6 +40,31 @@ h1 {
 .russian{
   animation: anim 8s infinite alternate-reverse;
 }
-.english{
+.english {
   animation: anim 8s infinite alternate;
+}
+
+
+@media screen and (min-width: 992px) {
+  .desktop {
+    display: block;
+  }
+  .mobile {
+    display: none;
+  }
+}
+@media screen and (max-width: 991px) {
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
+  h1 {
+    font-size: 30px;
+    text-align: left;
+  }
+  h2 {
+    font-size: 20px;
+  }
 }
