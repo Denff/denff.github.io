@@ -26,8 +26,7 @@ h1 {
     4px  4px 30px rgba(256, 256, 256, 1),
    -4px -4px 30px rgba(256, 256, 256, 1),
    -4px  4px 30px rgba(256, 256, 256, 1),
-    4px -4px 30px rgba(256, 256, 256, 1)
-  ;
+    4px -4px 30px rgba(256, 256, 256, 1);
 }
 
 
@@ -59,6 +58,7 @@ h1 {
   }
   .mobile {
     display: block;
+    text-shadow: none;
   }
   h1 {
     font-size: 30px;
@@ -67,4 +67,17 @@ h1 {
   h2 {
     font-size: 20px;
   }
+}
+@media screen and (max-width: 420px) {
+  .mobile {
+    width: 150px;
+    line-height: 1.1;
+  }
+  .photo {
+    top: 20px;
+    right: 20px;
+  }
+
+
+
 }

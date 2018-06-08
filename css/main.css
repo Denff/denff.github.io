@@ -84,7 +84,8 @@ h1 {
     display: none; }
 
   .mobile {
-    display: block; }
+    display: block;
+    text-shadow: none; }
 
   h1 {
     font-size: 30px;
@@ -92,6 +93,14 @@ h1 {
 
   h2 {
     font-size: 20px; } }
+@media screen and (max-width: 420px) {
+  .mobile {
+    width: 150px;
+    line-height: 1.1; }
+
+  .photo {
+    top: 20px;
+    right: 20px; } }
 .container {
   position: relative;
   padding: 5px 20px;
