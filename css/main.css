@@ -90,7 +90,11 @@ h1 {
   border-radius: 55px;
   border-right: 6px groove grey;
   border-bottom: 6px groove grey;
-  border-left: 6px ridge grey; }
+  border-left: 6px ridge grey;
+  background: url("../img/IMG_2-35.jpg") no-repeat center center;
+  transition: all 0.5s; }
+  .photo:hover {
+    background: url("../img/IMG_1-47.jpg") no-repeat center center; }
 
 .sites__list {
   display: flex;
