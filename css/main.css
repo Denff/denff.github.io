@@ -98,9 +98,8 @@ h1 {
     width: 150px;
     line-height: 1.1; }
 
-  .photo {
-    top: 20px;
-    right: 20px; } }
+  .title {
+    top: 20px; } }
 .container {
   position: relative;
   padding: 5px 20px;
@@ -123,6 +122,10 @@ h1 {
   background-size: 130%;
   transition: all 0.5s; }
 
+@media screen and (max-width: 420px) {
+  .photo {
+    top: 20px;
+    right: 20px; } }
 .sites__list {
   display: flex;
   flex-flow: column wrap;
