@@ -29,8 +29,8 @@
 }
 .sites__list {
   display: flex;
-  flex-flow: column wrap;
-  justify-content: space-between;
+  flex-flow: row wrap;
+  justify-content: space-around;
   padding-left: 10px;
 }
 .sites__list_2 {
