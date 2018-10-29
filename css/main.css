@@ -187,6 +187,9 @@ h1 {
     width: 100%;
     margin: 15px auto; } }
 @media screen and (max-width: 768px) {
+  h1 {
+    font-size: 28px; }
+
   body {
     padding: 5px 10px; }
 
