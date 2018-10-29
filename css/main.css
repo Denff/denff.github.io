@@ -36,22 +36,10 @@ h1 {
 h2 {
   font-family: 'Colus', arial; }
 
-.title {
-  margin: 0;
-  padding: 0;
-  position: absolute;
-  width: 100%;
-  top: 10%;
-  bottom: 50%;
-  line-height: 0px;
-  filter: contrast(10); }
-
 h1 {
   width: 100%;
   text-align: center;
-  position: absolute;
   font-size: 40px;
-  margin: 0;
   font-family: 'Colus', arial;
   color: black; }
 
@@ -94,7 +82,7 @@ h1 {
 .sites__list {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-around;
+  justify-content: center;
   padding-left: 10px; }
 
 .sites__list_2 {
@@ -178,18 +166,14 @@ h1 {
 
 @media screen and (min-width: 992px) {
   .container {
-    width: 970px;
+    width: 1170px;
     margin: 20px auto; } }
 @media screen and (max-width: 991px) and (min-width: 769px) {
   .container {
-    min-width: 600px;
+    min-width: 700px;
     width: 100%;
     margin: 15px auto; } }
 @media screen and (max-width: 768px) {
-  h1 {
-    margin-top: 0;
-    line-height: 0.8; }
-
   body {
     padding: 5px 10px; }
 
