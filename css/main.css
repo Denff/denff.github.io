@@ -56,12 +56,14 @@ h1 {
 @media screen and (max-width: 420px) {
   .title {
     top: 20px; } }
+.wrapper {
+  background-color: #fdfdfd;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3); }
+
 .container {
   position: relative;
   padding: 5px 20px;
-  background-color: #fdfdfd;
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
-  border-radius: 3px; }
+  box-shadow: 0 19px 69px rgba(0, 0, 0, 0.1); }
 
 .photo {
   position: absolute;
