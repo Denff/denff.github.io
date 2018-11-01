@@ -75,6 +75,9 @@ h1 {
   position: relative;
   padding: 5px 20px; }
 
+.vk {
+  background: url("img/vk.svg") no-repeat; }
+
 .photo {
   position: absolute;
   top: 40px;
