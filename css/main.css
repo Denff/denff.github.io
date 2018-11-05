@@ -232,9 +232,9 @@ h1 {
   top: 0;
   left: 0;
   /*// border: 1px solid #42a4ff;*/
-  background-color: #1142aa;
-  border-top-left-radius: 15px;
-  border-bottom-left-radius: 15px;
+  background-color: #53377A;
+  border-top-left-radius: 1px;
+  border-bottom-left-radius: 1px;
   transition: all 0.7s; }
 
 .ready__job:after {
@@ -246,9 +246,9 @@ h1 {
   top: 0;
   right: 0;
   /*// border: 1px solid #42a4ff;*/
-  background-color: #1142aa;
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
+  background-color: #53377A;
+  border-top-right-radius: 1px;
+  border-bottom-right-radius: 1px;
   transition: all 0.7s; }
 
 .ready__job span {
@@ -266,18 +266,12 @@ h1 {
 .ready__job:hover:before {
   left: -18px;
   width: 12%;
-  /*// border: 1px solid #235787;*/
-  /*background-color: #235787;*/
-  /*background-color: #D3DDE7;*/
-  background-color: #06276F; }
+  background-color: #53377A; }
 
 .ready__job:hover:after {
   right: -18px;
   width: 12%;
-  /*// border: 1px solid #235787;*/
-  /*background-color: #235787;*/
-  /*background-color: #D3DDE7;*/
-  background-color: #06276F; }
+  background-color: #53377A; }
 
 .ready__job:hover span {
   /*// z-index: 3;*/
