@@ -47,6 +47,9 @@ h2::before {
   width: 27px;
   height: 3px; }
 
+.grey::before, .grey::after {
+  background-color: #555555; }
+
 h1 {
   width: 100%;
   text-align: center;
@@ -217,11 +220,8 @@ h1 {
   padding: 10px 10px 9px;
   margin: 15px 40px;
   position: relative;
-  /*// border-top: 1px solid #42a4ff;*/
-  /*// border-bottom: 1px solid #42a4ff;*/
   transition: all 0.7s;
-  /*width: 250px;*/
-  /*// z-index: 1;*/ }
+  background: #ccc; }
 
 .ready__job:before {
   z-index: 2;
