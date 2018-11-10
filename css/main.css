@@ -47,9 +47,6 @@ h2::before {
   width: 27px;
   height: 3px; }
 
-.grey::before, .grey::after {
-  background-color: #555555; }
-
 h1 {
   width: 100%;
   text-align: center;
@@ -259,9 +256,7 @@ h1 {
   transition: all 0.7s; }
 
 .ready__job:hover {
-  background-color: rgba(17, 66, 170, 0.2);
-  /*// border-top: 1px solid #235787;*/
-  /*// border-bottom: 1px solid #235787;*/ }
+  background-color: rgba(17, 66, 170, 0.2); }
 
 .ready__job:hover:before {
   left: -18px;
@@ -274,7 +269,10 @@ h1 {
   background-color: #53377A; }
 
 .ready__job:hover span {
-  /*// z-index: 3;*/
   color: rgba(0, 0, 0, 0.8); }
+
+.grey::before, .grey::after {
+  background-color: #555555;
+  opacity: 0.8; }
 
 /*# sourceMappingURL=main.css.map */

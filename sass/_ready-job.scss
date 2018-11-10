@@ -52,25 +52,26 @@
 }
 .ready__job:hover {
   background-color: rgba(17, 66, 170, 0.2);
-  /*// border-top: 1px solid #235787;*/
-  /*// border-bottom: 1px solid #235787;*/
-
 }
 .ready__job:hover:before {
   left: -18px;
   width: 12%;
-
-  // background-color: #06276F;
   background-color:  #53377A;
 }
 .ready__job:hover:after {
   right: -18px;
   width: 12%;
-
-  // background-color: #06276F;
   background-color:  #53377A;
 }
 .ready__job:hover span {
-  /*// z-index: 3;*/
   color: rgba(0, 0, 0, 0.8);
+}
+
+
+.grey {
+    &::before,
+    &::after {
+        background-color: #555555;
+        opacity: 0.8;
+    }
 }
