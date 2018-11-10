@@ -9,8 +9,13 @@
   // box-shadow: 0 19px 69px rgba(0, 0, 0, 0.1);
 }
 .vk {
-    background: url('../img/vk.svg') no-repeat;
-
+    background: url("../img/vk.svg") no-repeat;
+    background-size: 20px 20px;
+    background-position: center;
+    width: 20px;
+    height: 20px;
+    display: block;
+    margin-left: 10px;
 }
 .photo {
     position: absolute;
