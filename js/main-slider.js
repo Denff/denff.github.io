@@ -1,0 +1,1 @@
+jQuery(".main-slider").slick({dots:!1,arrows:!1,infinite:!1,autoplay:!0,pauseOnHover:!1,pauseOnFocus:!1,autoplaySpeed:9e3,speed:800,fade:!1,adaptiveHeight:!1,vertical:!1,verticalSwiping:!1,slidesToShow:1,slidesToScroll:1,responsive:[{breakpoint:1199,settings:{slidesToShow:1,slidesToScroll:1}}]});
