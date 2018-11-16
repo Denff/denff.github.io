@@ -1,4 +1,20 @@
+.container {
+  margin: 0 auto;
+  width: 1170px;
+  @include max-screen(1199px) {width: 970px;}
+  @include max-screen(991px) {width: 750px;}
+  @include max-screen(767px) {width: 610px;}
+}
+.noscroll {}
+.table-wrapper {overflow: auto;}
+a.lightgallery {border-bottom: none;}
+ul.slick-dots li button, .slick-slide, .slick-arrow {outline: none;}
 
+
+
+
+
+/******************************************************/
 .wrapper {
     background-color: #fdfdfd;
     box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
@@ -63,6 +79,7 @@
   background: -o-linear-gradient(bottom right,rgb(225,230,230),rgb(245,245,245)); /*Opera 11.1-12*/
   background: -moz-linear-gradient(bottom right,rgb(225,230,230),rgb(245,245,245)); /*Fx 3.6-15*/
   background: linear-gradient(bottom right, rgb(225,230,230), rgb(245,245,245)); /*Standard*/
+  border: none;
   }
 .sites__list_2 a:before {
   content: '';
@@ -112,6 +129,7 @@
 .contacts {
   display: flex;
   justify-content: flex-end;
+  margin: 40px 0 0 0;
 }
 
 .frontend {
@@ -164,4 +182,23 @@
     margin: 5px;
   }
 
+}
+
+
+.helpers {
+	display: flex;
+	justify-content: center;
+	div {
+		margin: 10px 30px;
+	}
+}
+
+.box2 {
+	position: absolute;
+	top: 30px;
+	right: 10%;
+}
+
+.position {
+    font-size: 18px;
 }
