@@ -27,6 +27,39 @@
 
 
 
+$Helvetica-path: '../fonts/';
+$Helvetica-name: 'Helvetica';
+$Helvetica-map: (
+  900:'/black'
+);
+ @include font-mixin(normal, $Helvetica-path,  $Helvetica-name, $Helvetica-map);
+
+
+
+ $OpenSans-path: '../fonts/';
+ $OpenSans-name: 'OpenSans';
+ $OpenSans-map: (
+   300:'/light',
+   400:'/regular',
+   600:'semibold',
+   700:'/bold',
+   900:'/extrabold'
+ );
+  @include font-mixin(normal, $OpenSans-path,  $OpenSans-name, $OpenSans-map);
+
+
+
+  $Roboto-path: '../fonts/';
+  $Roboto-name: 'Roboto';
+  $Roboto-map: (
+    400:'/regular',
+    700:'/bold',
+    600:'/medium',
+    900:'/black',
+  );
+  @include font-mixin(normal, $Roboto-path,  $Roboto-name, $Roboto-map);
+
+
 
 // Создаем переменную, с указанием пути до корневой папки.
 // Путь указывается относительно файла css.
