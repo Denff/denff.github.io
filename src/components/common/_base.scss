@@ -7,38 +7,39 @@ body, div, table, tr, td, h1, h2, h3, li {
 }
 body {
     margin: 0;
-  font-family: Arial;
-  font-size: 16px;
-  font-weight: 400;
-  color: #4d4d4d;
-  line-height: 22px;
-  min-width: 970px;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #4d4d4d;
+    color: #E8AE0C;
+    line-height: 22px;
+    min-width: 970px;
 }
 .clear {
-  clear: both;
+    clear: both;
 }
 hr {
-  height: 1px;
-  background-color: #ededee;
-  border: none;
-  width: 100%;
-  margin: 46px 0;
+    height: 1px;
+    background-color: #ededee;
+    border: none;
+    width: 100%;
+    margin: 46px 0;
 }
 a {
-  color: #0072bb;
-  text-decoration: none;
-  border-bottom: 1px solid #cce3f1;
-  outline: none;
-  &:hover {
+    color: #0072bb;
+    text-decoration: none;
+    border-bottom: 1px solid #cce3f1;
+    outline: none;
+    &:hover {
     color: #009ee2;
     text-decoration: none;
     border-color: transparent;
-  }
-  &:focus {
+    }
+    &:focus {
     text-decoration: none;
     outline: none;
     border-color: transparent;
-  }
+    }
 }
 h1 {
   font-size: 36px;
@@ -124,6 +125,7 @@ body {
   background: -o-linear-gradient(bottom right,rgb(210,210,210),rgb(230,230,230)); /*Opera 11.1-12*/
   background: -moz-linear-gradient(bottom right,rgb(210,210,210),rgb(230,230,230)); /*Fx 3.6-15*/
   background: linear-gradient(bottom right, rgb(210,210,210), rgb(230,230,230)); /*Standard*/
+  background: #4d4d4d;
 }
 h1 {
   font-family: 'Colus', arial;
