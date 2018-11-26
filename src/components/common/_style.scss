@@ -18,6 +18,7 @@ ul.slick-dots li button, .slick-slide, .slick-arrow {outline: none;}
 .wrapper {
     background-color: #fdfdfd;
     background: #4d4d4d;
+	background: #000312;
     box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
 }
 .container {
@@ -90,7 +91,8 @@ ul.slick-dots li button, .slick-slide, .slick-arrow {outline: none;}
     bottom: 0;
     width: 0px;
     opacity: 0;
-    background-color: rgba(120,219,226,0.4);
+    // background-color: rgba(120,219,226,0.4);
+    background-color: rgba(255,176,46,0.4);
     transition: all 0.5s;
     z-index: 1;
 }
@@ -126,6 +128,9 @@ ul.slick-dots li button, .slick-slide, .slick-arrow {outline: none;}
     display: flex;
     justify-content: flex-end;
     margin: 40px 0 0 0;
+	a {
+		border: none;
+	}
 }
 
 .frontend {

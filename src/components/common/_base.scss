@@ -11,6 +11,7 @@ body {
     font-size: 16px;
     font-weight: 400;
     background-color: #4d4d4d;
+    background-color: #000312;
     color: #E8AE0C;
     line-height: 22px;
     min-width: 970px;
@@ -126,17 +127,26 @@ body {
   background: -moz-linear-gradient(bottom right,rgb(210,210,210),rgb(230,230,230)); /*Fx 3.6-15*/
   background: linear-gradient(bottom right, rgb(210,210,210), rgb(230,230,230)); /*Standard*/
   background: #4d4d4d;
+  background: #000312;
 }
 h1 {
-  font-family: 'Colus', arial;
+  // font-family: 'Colus', arial;
+  font-family: 'Roboto', arial;
+  transform: uppercase;
   text-align: center;
   margin-top: 14px;
+  font-weight: 400;
+  font-size: 32px;
 }
 h2 {
-  font-family: 'Colus', arial;
-  display: inline-block;
-  position: relative;
-  line-height: 1.2;
+  // font-family: 'Colus', arial;
+	font-family: 'Roboto', arial;
+	transform: uppercase;
+	display: inline-block;
+	position: relative;
+	line-height: 1.2;
+	font-weight: 400;
+	font-size: 32px;
 }
 // h2::before {
 //

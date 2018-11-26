@@ -6,8 +6,12 @@
     margin: 15px 40px;
     position: relative;
     transition: all 0.7s;
-    background: #ccc;
+    // background: #ccc;
+	// border-bottom: 1px solid transparent;
 
+}
+a.ready__job {
+	border: none;
 }
 //  #53377A насыщенный фиолетовый
 // rgba(83,55,122,1);
@@ -23,7 +27,8 @@
   left: 0;
   /*// border: 1px solid #42a4ff;*/
   // background-color: #1142aa;
-  background-color: #53377A;
+  // background-color: #53377A;
+  background-color: #641C34;
   border-top-left-radius: 1px;
   border-bottom-left-radius: 1px;
   transition: all 0.7s;
@@ -38,7 +43,8 @@
   right: 0;
   /*// border: 1px solid #42a4ff;*/
   // background-color: #1142aa;
-   background-color: #53377A;
+   // background-color: #53377A;
+   background-color: #641C34;
   border-top-right-radius: 1px;
   border-bottom-right-radius: 1px;
   transition: all 0.7s;
@@ -51,20 +57,28 @@
   transition: all 0.7s;
 }
 .ready__job:hover {
-  background-color: rgba(17, 66, 170, 0.2);
+  // background-color: rgba(17, 66, 170, 0.2);
+  background-color: rgba(0, 0, 0, 1);
+  // background-color: #79553D;
 }
 .ready__job:hover:before {
   left: -18px;
   width: 12%;
-  background-color:  #53377A;
+  // background-color:  #53377A;
+  // background-color:  #CD9575;
+  // background-color: #AB274F;
+  background-color: #990066;
 }
 .ready__job:hover:after {
   right: -18px;
   width: 12%;
-  background-color:  #53377A;
+  // background-color:  #53377A;
+  // background-color:  #CD9575;
+  // background-color: #AB274F;
+  background-color: #990066;
 }
 .ready__job:hover span {
-  color: rgba(0, 0, 0, 0.8);
+  color: rgba(230, 230, 230, 0.8);
 }
 
 
