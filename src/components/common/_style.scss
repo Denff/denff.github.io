@@ -16,15 +16,16 @@ ul.slick-dots li button, .slick-slide, .slick-arrow {outline: none;}
 
 /******************************************************/
 .wrapper {
-    background-color: #fdfdfd;
-    background: #4d4d4d;
-	background: #000312;
-    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+	color: #293133;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+	background-image: url('../img/t6.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 .container {
   position: relative;
   padding: 5px 20px;
-  // box-shadow: 0 19px 69px rgba(0, 0, 0, 0.1);
 }
 .vk {
     background: url("../img/vk.svg") no-repeat;
@@ -75,11 +76,8 @@ ul.slick-dots li button, .slick-slide, .slick-arrow {outline: none;}
   padding: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   border-radius: 2px;
-  background: rgb(225,230,230); /* Old Browsers */
-  background: -webkit-linear-gradient(bottom right,rgb(225,230,230),rgb(245,245,245)); /*Safari 5.1-6*/
-  background: -o-linear-gradient(bottom right,rgb(225,230,230),rgb(245,245,245)); /*Opera 11.1-12*/
-  background: -moz-linear-gradient(bottom right,rgb(225,230,230),rgb(245,245,245)); /*Fx 3.6-15*/
-  background: linear-gradient(bottom right, rgb(225,230,230), rgb(245,245,245)); /*Standard*/
+  background: rgb(225,230,230);
+  background: linear-gradient(bottom right, rgb(225,230,230), rgb(245,245,245));
   border: none;
   }
 .sites__list_2 a:before {
