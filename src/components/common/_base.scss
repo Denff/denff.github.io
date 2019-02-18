@@ -20,7 +20,7 @@ body {
 }
 
 
-.teg {
+.color-of-money {
 	color: #FC6C85;
 	color: #C93C20;
 	color: #7851A9;
@@ -45,14 +45,14 @@ a {
     border-bottom: 1px solid #cce3f1;
     outline: none;
     &:hover {
-    color: #009ee2;
-    text-decoration: none;
-    border-color: transparent;
+	    color: #009ee2;
+	    text-decoration: none;
+	    border-color: transparent;
     }
     &:focus {
-    text-decoration: none;
-    outline: none;
-    border-color: transparent;
+	    text-decoration: none;
+	    outline: none;
+	    border-color: transparent;
     }
 }
 h1 {
