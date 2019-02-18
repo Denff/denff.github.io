@@ -12,11 +12,14 @@ body {
     font-weight: 400;
     color: #E8AE0C;
     line-height: 22px;
-    min-width: 970px;
-
+	width: 100%;
+    min-width: 320px;
+    background-color: #fdfdfd;
 	display: flex;
 	flex-flow: column;
 }
+
+
 .teg {
 	color: #FC6C85;
 	color: #C93C20;
@@ -123,12 +126,7 @@ table.nostyle {
 /*******************************/
 
 
-body {
-  font-family: arial;
-  width: 100%;
-  min-width: 320px;
-  background-color: #fdfdfd;
-}
+
 h1 {
   // font-family: 'Colus', arial;
   font-family: 'Roboto', arial;
