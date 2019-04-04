@@ -1,3 +1,10 @@
 @import '../helpers/_helpers';
 
 .my-title {}
+
+.box2 {
+	margin: 0 0 0 50px;
+	overflow: auto;
+	border: 5px solid rgba(0, 0, 0, 0.4);
+	width: 200px;
+}

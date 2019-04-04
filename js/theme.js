@@ -1,1 +1,15 @@
-!function(n){function e(){}"undefined"!=typeof Drupal?Drupal.behaviors.theme={attach:function(n,t){e()}}:e()}(jQuery);
+(function($) {
+  if (typeof Drupal !== 'undefined') {
+    Drupal.behaviors.theme = {
+      attach: function(context, settings) {
+        init();
+      }
+    };
+  } else {
+    init();
+  }
+
+  function init() {
+    // Ваш код
+  }
+})(jQuery);

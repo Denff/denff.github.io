@@ -59,6 +59,8 @@ ul.slick-dots li button, .slick-slide, .slick-arrow {outline: none;}
 	padding-left: 60px;
 	padding-top: 12px;
 	color: #ffffff;
+	color: #101010;
+	transition: all 0.3s;
 	&:hover {
 		color: #ffffff;
 	}
@@ -113,8 +115,8 @@ ul.slick-dots li button, .slick-slide, .slick-arrow {outline: none;}
   padding: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   border-radius: 2px;
-  background: rgb(225,230,230);
-  background: linear-gradient(bottom right, rgb(225,230,230), rgb(245,245,245));
+  background: rgba(225,230,230, 0.1);
+  // background: linear-gradient(bottom right, rgbа(225,230,230, 0.3), rgbа(245,245,245, 0.3));
   border: none;
   }
 .sites__list_2 a:before {
@@ -126,8 +128,8 @@ ul.slick-dots li button, .slick-slide, .slick-arrow {outline: none;}
     bottom: 0;
     width: 0px;
     opacity: 0;
-    // background-color: rgba(120,219,226,0.4);
-    background-color: rgba(255,176,46,0.4);
+    // background-color: rgba(0, 0, 0, 0.2);
+    background: rgba(225,230,230, 0.5);
     transition: all 0.5s;
     z-index: 1;
 }
@@ -241,11 +243,7 @@ ul.slick-dots li button, .slick-slide, .slick-arrow {outline: none;}
 	}
 }
 
-.box2 {
-	position: absolute;
-	top: 30px;
-	right: 10%;
-}
+
 
 .position {
     font-size: 18px;

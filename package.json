@@ -10,8 +10,8 @@
     "build": "cross-env NODE_ENV=production gulp build"
   },
   "author": {
-    "name": "mihail-174",
-    "url": "https://github.com/mihail-174"
+    "name": "Frolov Denis",
+    "url": "https://github.com/Denff"
   },
   "license": "ISC",
   "dependencies": {
