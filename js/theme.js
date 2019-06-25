@@ -1,1 +1,0 @@
-!function(n){function e(){}"undefined"!=typeof Drupal?Drupal.behaviors.theme={attach:function(n,t){e()}}:e()}(jQuery);
