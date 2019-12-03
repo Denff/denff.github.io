@@ -93,3 +93,9 @@ h5.header {
 .parallax-container.valign-wrapper .parallax img {
   bottom: -150px;
 }
+
+
+.parallax-container {
+
+  min-height: 450px;
+}
