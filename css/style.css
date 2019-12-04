@@ -62,19 +62,14 @@ footer.page-footer {
 
 .btn-2 {
   display: inline-block;
-  padding: 3px 12px;
-  margin: 0 8px 8px 0;
+  padding: 5px 10px 7px;
+  margin: 0 7px 7px 0;
   background-color: #9fa8da;
   color: #ffffff;
   border-radius: 2px;
+  font-weight: 600;
 }
 
-h5.header {
-  color:
-    #b3e5fc;
-
-  text-shadow: 1px 1px 1px #b3e5fc;
-}
 
 .me {
   display: flex;
@@ -84,10 +79,13 @@ h5.header {
 .me .img {
   width: 240px;
   overflow: hidden;
+  border: 3px solid #9fa8da;
 }
 
 .me .img img {
   max-width: 100%;
+  display: block;
+
 }
 
 .parallax-container.valign-wrapper .parallax img {
@@ -96,6 +94,50 @@ h5.header {
 
 
 .parallax-container {
-
   min-height: 450px;
+}
+
+
+.section {
+  padding: 45px 0;
+}
+
+h5.header {
+  color: #9fa8da;
+}
+
+nav .social span {
+  display: none;
+}
+
+.skills,
+.portfolio {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.skills li {
+  padding: 5px 10px 7px;
+  background-color: #80deea;
+  border-radius: 2px;
+  margin: 0 7px 7px 0;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 767px) {
+  .parallax-container .parallax img {
+    left: 20%;
+  }
+
+  nav .brand-logo {
+    font-size: 1.8rem;
+  }
+}
+
+nav ul a {
+  font-size: 2.4rem;
+}
+
+.sidenav li>a {
+  font-size: 16px;
 }
