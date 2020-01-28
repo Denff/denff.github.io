@@ -5,10 +5,9 @@
  *
  * Made By MaterializeCSS.com
  */
-
 nav ul a,
 nav .brand-logo {
-  color: #444;
+    color: #444;
 }
 
 body {
@@ -16,132 +15,132 @@ body {
 }
 
 p {
-  line-height: 2rem;
+    line-height: 2rem;
 }
 
 .sidenav-trigger {
-  color: #26a69a;
+    color: #26a69a;
 }
 
 .parallax-container {
-  min-height: 380px;
-  line-height: 0;
-  height: auto;
-  color: rgba(255, 255, 255, .9);
+    min-height: 380px;
+    line-height: 0;
+    height: auto;
+    color: rgba(255, 255, 255, .9);
 }
 
 .parallax-container .section {
-  width: 100%;
+    width: 100%;
 }
 
 @media only screen and (max-width : 992px) {
-  .parallax-container .section {
-    position: absolute;
-    top: 40%;
-  }
+    .parallax-container .section {
+        position: absolute;
+        top: 40%;
+    }
 
-  #index-banner .section {
-    top: 10%;
-  }
+    #index-banner .section {
+        top: 10%;
+    }
 }
 
 @media only screen and (max-width : 600px) {
-  #index-banner .section {
-    top: 0;
-  }
+    #index-banner .section {
+        top: 0;
+    }
 }
 
 .icon-block {
-  padding: 0 15px;
+    padding: 0 15px;
 }
 
 .icon-block .material-icons {
-  font-size: inherit;
+    font-size: inherit;
 }
 
 footer.page-footer {
-  margin: 0;
+    margin: 0;
 }
-
 
 .btn-2 {
-  display: inline-block;
-  padding: 5px 10px 7px;
-  margin: 0 7px 7px 0;
-  background-color: #9fa8da;
-  color: #ffffff;
-  border-radius: 2px;
-  font-weight: 600;
+    display: inline-block;
+    padding: 5px 10px 7px;
+    margin: 0 7px 7px 0;
+    background-color: #2F3674;
+    color: #ffffff;
+    border-radius: 2px;
+    font-weight: 600;
 }
 
-
 .me {
-  display: flex;
-  justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 
 .me .img {
-  width: 240px;
-  overflow: hidden;
-  border: 3px solid #9fa8da;
+    width: 240px;
+    overflow: hidden;
+    border: 3px solid #9fa8da;
 }
 
 .me .img img {
-  max-width: 100%;
-  display: block;
-
+    max-width: 100%;
+    display: block;
 }
 
 .parallax-container.valign-wrapper .parallax img {
-  bottom: -150px;
+    bottom: -150px;
 }
-
 
 .parallax-container {
-  min-height: 450px;
+    min-height: 450px;
 }
 
-
 .section {
-  padding: 45px 0;
+    padding: 45px 0;
+}
+
+h1 {
+    text-shadow: 1px 1px 5px rgba(255, 255, 255, 0.2);
 }
 
 h5.header {
-  color: #9fa8da;
+    color: #9fa8da;
+    text-shadow: 1px 1px 5px rgba(255, 255, 255, 0.2);
 }
 
 nav .social span {
-  display: none;
+    display: none;
 }
 
 .skills,
 .portfolio {
-  display: flex;
-  flex-flow: row wrap;
+    display: flex;
+    flex-flow: row wrap;
 }
 
 .skills li {
-  padding: 5px 10px 7px;
-  background-color: #80deea;
-  border-radius: 2px;
-  margin: 0 7px 7px 0;
-  font-weight: 600;
+    padding: 5px 10px 7px;
+    background-color: #80deea;
+    border-radius: 2px;
+    margin: 0 7px 7px 0;
+    font-weight: 600;
 }
 
 @media screen and (max-width: 767px) {
-  .parallax-container .parallax img {
-    left: 20%;
-  }
+    .parallax-container .parallax img {
+        left: 20%;
+    }
 
-  nav .brand-logo {
-    font-size: 1.8rem;
-  }
+    nav .brand-logo {
+        font-size: 1.8rem;
+    }
 }
 
 nav ul a {
-  font-size: 2.4rem;
+    font-size: 2.4rem;
 }
 
 .sidenav li>a {
-  font-size: 16px;
+    font-size: 16px;
 }
