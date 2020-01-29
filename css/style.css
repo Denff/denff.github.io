@@ -94,6 +94,7 @@ footer.page-footer {
 
 .parallax-container {
     min-height: 450px;
+    background-color: rgba(0,0,0,0.8);
 }
 
 .section {
