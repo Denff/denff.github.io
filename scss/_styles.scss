@@ -1,0 +1,88 @@
+.sidenav-trigger {
+    color: #26a69a;
+}
+
+.parallax-container {
+    line-height: 0;
+    height: auto;
+    color: rgba(255, 255, 255, .9);
+    min-height: 450px;
+    background-color: rgba(0, 0, 0, 0.8);
+
+    .section {
+        width: 100%;
+    }
+}
+
+.parallax-container.valign-wrapper .parallax img {
+    bottom: -150px;
+}
+
+@media only screen and (max-width : 992px) {
+    .parallax-container .section {
+        position: absolute;
+        top: 40%;
+    }
+
+    #index-banner .section {
+        top: 10%;
+    }
+}
+
+@media only screen and (max-width : 600px) {
+    #index-banner .section {
+        top: 0;
+    }
+}
+
+.icon-block {
+    padding: 0 15px;
+
+    .material-icons {
+        font-size: inherit;
+    }
+}
+
+.btn-2 {
+    flex: 0 0 auto;
+    width: 180px;
+    padding: 7px 15px 8px;
+    margin: 0 15px 10px 0;
+    background-color: #2F3674;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.me {
+    display: flex;
+    justify-content: center;
+
+    .img {
+        width: 240px;
+        overflow: hidden;
+        border: 3px solid #9fa8da;
+
+        img {
+            max-width: 100%;
+            display: block;
+        }
+    }
+}
+
+.section {
+    padding: 45px 0;
+}
+
+@media screen and (max-width: 767px) {
+    .parallax-container .parallax img {
+        left: 20%;
+    }
+
+    nav .brand-logo {
+        font-size: 1.8rem;
+    }
+}
+
+.sidenav li>a {
+    font-size: 16px;
+}

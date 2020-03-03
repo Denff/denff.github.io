@@ -1,0 +1,14 @@
+.skills,
+.portfolio {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.skills li {
+    flex: 0 0 auto;
+    width: 180px;
+    padding: 7px 15px 8px;
+    background-color: #80deea;
+    margin: 0 15px 10px 0;
+    font-weight: 600;
+}
