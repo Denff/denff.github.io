@@ -1,8 +1,92 @@
-(function($){
-  $(function(){
+(function ($) {
+    $(function () {
 
-    $('.sidenav').sidenav();
-    $('.parallax').parallax();
+        $('.sidenav').sidenav();
+        $('.parallax').parallax();
 
-  }); // end of document ready
-})(jQuery); // end of jQuery name space
+    }
+
+    );
+}
+
+)(jQuery);
+
+
+
+const rank = document.querySelectorAll('.rank');
+
+const rankItem = document.querySelectorAll('.rank__item');
+
+for (let i = 0; i < rank.length; i++) {
+    switch (i) {
+        case 0:
+            const webpack = rank[0].querySelectorAll('.rank__item');
+
+            for (let k = 0; k < webpack.length; k++) {
+                if (k < 4) {
+                    webpack[k].classList.add('active-red');
+                }
+            }
+
+        case 1: const bem = rank[1].querySelectorAll('.rank__item');
+
+            for (let k = 0; k < bem.length; k++) {
+                if (k < 6) {
+                    bem[k].classList.add('active-grey');
+                }
+            }
+
+        case 2: const scss = rank[2].querySelectorAll('.rank__item');
+
+            for (let k = 0; k < scss.length; k++) {
+                if (k < 6) {
+                    scss[k].classList.add('active-pink');
+                }
+            }
+
+        case 3: const pug = rank[3].querySelectorAll('.rank__item');
+
+            for (let k = 0; k < pug.length; k++) {
+                if (k < 6) {
+                    pug[k].classList.add('active-yellow');
+                }
+            }
+
+        case 4: const git = rank[4].querySelectorAll('.rank__item');
+
+            for (let k = 0; k < git.length; k++) {
+                if (k < 5) {
+                    git[k].classList.add('active-green');
+                }
+            }
+
+        case 5: const jq = rank[5].querySelectorAll('.rank__item');
+
+            for (let k = 0; k < jq.length; k++) {
+                if (k < 4) {
+                    jq[k].classList.add('active-lgrey');
+                }
+            }
+        case 6: const drupal = rank[6].querySelectorAll('.rank__item');
+
+            for (let k = 0; k < drupal.length; k++) {
+                if (k < 4) {
+                    drupal[k].classList.add('active-lblue');
+                }
+            }
+        case 7: const jscript = rank[7].querySelectorAll('.rank__item');
+
+            for (let k = 0; k < jscript.length; k++) {
+                if (k < 4) {
+                    jscript[k].classList.add('active-orange');
+                }
+            }
+        case 8: const react = rank[8].querySelectorAll('.rank__item');
+
+            for (let k = 0; k < react.length; k++) {
+                if (k < 3) {
+                    react[k].classList.add('active-blue');
+                }
+            }
+    }
+}
