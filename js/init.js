@@ -13,25 +13,23 @@
 
 
 var mySwiper = new Swiper('.theSitesDeveloping', {
-
-
+    autoplay: {
+        delay: 3000,
+    },
     effect: 'coverflow',
     grabCursor: true,
     centeredSlides: true,
-    slidesPerView: 'auto',
+    slidesPerView:"auto",
+    centeredSlides: true,
+    speed: 600,
+
+
     coverflowEffect: {
         rotate: 50,
         stretch: 0,
         depth: 100,
         modifier: 1,
         slideShadows: true,
-    // slidesPerView: 3,
-    // spaceBetween: 30,
-    // centeredSlides: true,
-    // speed: 400,
-    // spaceBetween: 100,
-    // loop: true,
-    // cssMode: true,
     },
     pagination: {
         el: '.swiper-pagination',

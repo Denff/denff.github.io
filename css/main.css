@@ -174,11 +174,15 @@ footer.page-footer {
   height: 270px;
   width: 270px;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-end;
+  justify-content: flex-start;
   overflow: hidden;
 
 }
+.swiper-slide a {
+  margin: 0;
+}
+
 
 .swiper-button-next,
 .swiper-button-prev {
