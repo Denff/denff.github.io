@@ -12,6 +12,37 @@
 )(jQuery);
 
 
+var mySwiper = new Swiper('.theSitesDeveloping', {
+
+
+    effect: 'coverflow',
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: 'auto',
+    coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows: true,
+    // slidesPerView: 3,
+    // spaceBetween: 30,
+    // centeredSlides: true,
+    // speed: 400,
+    // spaceBetween: 100,
+    // loop: true,
+    // cssMode: true,
+    },
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+    },
+    // navigation: {
+    //     nextEl: '.swiper-button-next',
+    //     prevEl: '.swiper-button-prev',
+    // },
+});
+
 
 const rank = document.querySelectorAll('.rank');
 
@@ -90,3 +121,6 @@ for (let i = 0; i < rank.length; i++) {
             }
     }
 }
+
+
+
