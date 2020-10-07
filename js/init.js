@@ -122,7 +122,7 @@ for (let i = 0; i < rank.length; i++) {
 
 
 
-const animItems = document.querySelectorAll('.skills__item');
+const animItems = document.querySelectorAll('.animate-item');
 
 if (animItems.length > 0 ) {
     window.addEventListener('scroll', animOnScroll);

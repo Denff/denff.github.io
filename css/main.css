@@ -21,17 +21,19 @@ h5.header {
 
 
 }
-/* 
-.header {
+
+.header.animate-item {
+    visibility: hidden;
     opacity: 0;
-    transform: scale(0);
-    transition: all 0.4s ease 0s;
+    transform: translate( 0px, 220%);
+    transition: all 0.7s ease 0s;
 }
-.header.visible-active {
+.header.animate-item.visible-active {
+    visibility: visible;
     opacity: 1;
-    transform: scale(1);
-    transition: all 0.4s ease 0s;
-} */
+     transform: translate(0px, 0px);
+    transition: all 0.7s ease 0.5s;
+} 
 
 
 
@@ -56,41 +58,41 @@ nav .social span {
   font-weight: 600; }
 
 
-.skills__item {
+.skills__item.animate-item {
   visibility: hidden;
   opacity: 0;
   transform: translate( -120%, 0px);
   transition: all 0.4s ease 0s;
   
 }
-.skills__item.visible-active:nth-child(1) {
+.skills__item.animate-item.visible-active:nth-child(1) {
   transition: all 0.8s ease 0.5s;
 }
-.skills__item.visible-active:nth-child(2) {
+.skills__item.animate-item.visible-active:nth-child(2) {
   transition: all 0.8s ease 1.5s;
 }
-.skills__item.visible-active:nth-child(3) {
+.skills__item.animate-item.visible-active:nth-child(3) {
   transition: all 0.8s ease 2.5s;
 }
-.skills__item.visible-active:nth-child(4) {
+.skills__item.animate-item.visible-active:nth-child(4) {
   transition: all 0.8s ease 0.5s;
 }
-.skills__item.visible-active:nth-child(5) {
+.skills__item.animate-item.visible-active:nth-child(5) {
   transition: all 0.8s ease 1.5s;
 }
-.skills__item.visible-active:nth-child(6) {
+.skills__item.animate-item.visible-active:nth-child(6) {
   transition: all 0.8s ease 2.5s;
 }
-.skills__item.visible-active:nth-child(7) {
+.skills__item.animate-item.visible-active:nth-child(7) {
   transition: all 0.8s ease 0.5s;
 }
-.skills__item.visible-active:nth-child(8) {
+.skills__item.animate-item.visible-active:nth-child(8) {
   transition: all 0.8s ease 1.5s;
 }
-.skills__item.visible-active:nth-child(9) {
+.skills__item.animate-item.visible-active:nth-child(9) {
   transition: all 0.8s ease 2.5s;
 }
-.skills__item.visible-active {
+.skills__item.animate-item.visible-active {
     visibility: visible;
     opacity: 1;
     transform: translate( 0px, 0px);
@@ -234,15 +236,24 @@ footer.page-footer {
   height: 270px;
   width: 270px;
   display: flex;
-  align-items: flex-end;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
   overflow: hidden;
 
 }
-.swiper-slide a {
+.swiper-slide a.btn-2 {
   margin: 0;
+  background: transparent;
+  border: 7px solid transparent;
+  text-shadow: 2px 2px 5px black;
 }
-
+.swiper-slide a.btn-2:hover {
+    text-shadow: 2px 2px 5px yellow;
+    color: white;
+    background-color: rgba( 0, 0, 0, 0.3);
+    border: 7px solid transparent;
+    border-radius: 50%;
+}
 
 .swiper-button-next,
 .swiper-button-prev {
