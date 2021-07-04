@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.21a0ae18.chunk.css",
+    "main.js": "/static/js/main.9246d1e7.chunk.js",
+    "main.js.map": "/static/js/main.9246d1e7.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.961f61ba.js",
+    "runtime-main.js.map": "/static/js/runtime-main.961f61ba.js.map",
+    "static/css/2.ed2b1019.chunk.css": "/static/css/2.ed2b1019.chunk.css",
+    "static/js/2.2aeb9435.chunk.js": "/static/js/2.2aeb9435.chunk.js",
+    "static/js/2.2aeb9435.chunk.js.map": "/static/js/2.2aeb9435.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.ed2b1019.chunk.css.map": "/static/css/2.ed2b1019.chunk.css.map",
+    "static/css/main.21a0ae18.chunk.css.map": "/static/css/main.21a0ae18.chunk.css.map",
+    "static/js/2.2aeb9435.chunk.js.LICENSE.txt": "/static/js/2.2aeb9435.chunk.js.LICENSE.txt",
+    "static/media/333.70f952bc.jpg": "/static/media/333.70f952bc.jpg",
+    "static/media/interier.70786781.jpg": "/static/media/interier.70786781.jpg",
+    "static/media/steel-blue.47dc177f.jpg": "/static/media/steel-blue.47dc177f.jpg",
+    "static/media/Footer.module.scss": "/static/media/wa.8505d021.svg",
+    "static/media/wood.cb3dda50.jpg": "/static/media/wood.cb3dda50.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.961f61ba.js",
+    "static/css/2.ed2b1019.chunk.css",
+    "static/js/2.2aeb9435.chunk.js",
+    "static/css/main.21a0ae18.chunk.css",
+    "static/js/main.9246d1e7.chunk.js"
+  ]
+}
