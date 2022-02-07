@@ -1,0 +1,71 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 18px;
+    right: 18px;
+    padding: 20px;
+    z-index: 100;
+    color: white;
+    font-weight: 700;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.social {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 120px;
+    a {
+        color: transparent;
+        position: relative;
+        width: 32px;
+        height: 32px;
+
+        &::before {
+            position: absolute;
+            content: '';
+            width: 32px;
+            height: 32px;
+            top: 0;
+            left: 0;
+        }
+    }
+}
+.whatsapp {
+    &::before {
+        background-image: url('./../../img/wa.svg');
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }    
+}
+.vk {
+    &::before {
+        background-image: url('./../../img/vk.svg');
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+}
+.telegram {
+    &::before {
+        background-image: url('./../../img/telegram.svg');
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }    
+}
+.email {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+
+@media screen and (max-width: 767px){
+    .footer {
+        padding: 20px 9px;
+    }
+    .email {
+        font-size: 12px;
+    }
+}
